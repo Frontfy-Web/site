@@ -18,7 +18,7 @@ body{
 header {
     position: sticky;
     top: 0;
-    background-color: rgba(68, 68, 68, 0);
+    background-color: rgba(220, 144, 255, 0);
     backdrop-filter: blur(10px);
 }
 
