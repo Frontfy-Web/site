@@ -203,7 +203,7 @@ p {
 
 footer {
     padding: 1% 2%;
-    background: linear-gradient(90deg, #67609e, #bc2bff, var(--cor__principal), #bc2bff, #67609e);
+    background: linear-gradient(90deg, #9221c7, #d582fc, #9221c7);
     font-size: 1rem;
     font-family: var(--fonte__padrao);
     color: var(--cor__secundaria);
