@@ -1,6 +1,6 @@
 :root {
     --cor__principal: #dc90ff;
-    --cor__secundaria: #111427;
+    --cor__secundaria: #3e0057;
     --cor__terciaria: #e5adff;
     --fonte__logo: "Funnel Display", sans-serif;
     --fonte__padrao: "Roboto", sans-serif;
@@ -63,7 +63,7 @@ header {
 }
 
 main {
-    background: linear-gradient(45deg, var(--cor__secundaria), #5c0080, var(--cor__secundaria));
+    background: linear-gradient(45deg, #111427, #5c0080, #111427);
     font-family: var(--fonte__padrao);
     text-align: justify;
     padding: 0rem 2rem 0rem 2rem;
@@ -199,6 +199,79 @@ p {
     border-style: none;
     border-color: var(--cor__principal);
     border-radius: 5%;
+}
+
+.form{
+    color: var(--cor__principal);
+    padding: 5rem 10rem;
+}
+
+.form__titulo{
+    color: var(--cor__principal);
+    font-family: var(--fonte__logo);
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+label{
+    font-family: var(--fonte__logo);
+    font-size: 1.5rem;
+}
+
+
+select:hover{
+    background: linear-gradient(10deg, #420058, #5c0080, #420058);
+    color: var(--cor__principal);
+    box-shadow: 0px 0px 1000px #d773ff;
+    border-color: #5c0080;
+}
+
+input:hover{
+    background: linear-gradient(10deg, #420058, #5c0080, #420058);
+    color: var(--cor__principal);
+    box-shadow: 0px 0px 1000px #d773ff;
+    border-color: #5c0080;
+}
+
+option{
+    background-color: var(--cor__terciaria);
+    color: var(--cor__secundaria);
+    border-radius: 100rem;
+}
+
+option,
+select,
+input{
+    height: 4rem; 
+    width: 5rem;
+    border-radius: 100rem;
+    background-color: var(--cor__terciaria);
+    font-family: var(--fonte__logo);
+    font-size: 1.5rem;
+}
+
+.button__form {
+    display: block;
+    width: 10rem;
+    padding: 1rem 0rem 1rem 0rem;
+    font-size: 1rem;
+    background-color: var(--cor__principal);
+    color: var(--cor__secundaria);
+    border-color: var(--cor__principal);
+    border-style: solid;
+    border-radius: 3rem;
+    box-shadow: 0px 0px 10px var(--cor__principal);
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.button__form:hover{
+    background: linear-gradient(10deg, #420058, #5c0080, #420058);
+    color: var(--cor__principal);
+    box-shadow: 0px 0px 1000px #d773ff;
+    border-color: #5c0080;
 }
 
 footer {
