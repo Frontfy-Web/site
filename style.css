@@ -251,6 +251,9 @@ img {
   .cabecalho__navabar {
     gap: 0.5rem;
   }
+  header{
+    position: relative;
+  }
 }
 
 @media (max-width: 768px) {
@@ -269,5 +272,9 @@ img {
 
   .cabecalho__navabar__componentes {
     font-size: 1.1rem;
+  }
+
+    header{
+    position: relative;
   }
 }
